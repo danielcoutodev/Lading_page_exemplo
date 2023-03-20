@@ -1,22 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        div{
-            border: 2px solid black;
-            width: 300px;
-            height: 300px;
-            background-image: url(imagens/drive-download-20230318T204225Z-001/three-dashes.svg);
-        }
-    </style>
+    <title>Tom's Jazz School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
 </head>
 <body >
-    <div>
+    <header>
+        <div>
+            <img src="imagens/drive-download-20230318T204225Z-001/logo.svg" alt="Tom's Jazz School">
+        <nav class="mt-1 mx-auto">
+            <a href="#">Início</a>
+            <a href="#">Cursos</a>
+            <a href="#">Eventos</a>
+            <a href="#">Contato</a>
+        </nav>
+        <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+        </div>
+        
+    </header>
+    <main>
+        <section class="hero-section">
+            <img src="imagens/drive-download-20230318T204225Z-001/hero-img.png" alt="Jazz band">
+            <div>
+                <h1 class="mt-2">Crie algo<span class="text-primary decoration"> impactante </span>com música</h1>
+                <p class="mt-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita facilis quasi tempore fuga, libero eligendi aliquid inventore maxime, provident sit perspiciatis quaerat corporis. Deleniti autem quo dolorum fugit voluptatibus. Itaque!</p>
+                <a href="#" class="button">Comece agora</a>
+            </div>
+        </section>
+        <section class="courses-section">
+            <div class="cards">
+                <article class="card">
+                    <img src="imagens/drive-download-20230318T204225Z-001/piano.png" alt="Piano">
+                    <strong>Piano Popular</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident atque non illum, et facilis voluptates porro asperiores amet debitis accusamus totam similique iusto ipsa sequi? Hic enim amet eos!</p>
+                    <a href="#"><img src="imagens/drive-download-20230318T204225Z-001/arrow-right.svg" alt="ir para página do curso"></a>
+                </article>
+                <article class="card">
+                    <img src="imagens/drive-download-20230318T204225Z-001/clef.png" alt="Clave de sol">
+                    <strong>Teoria musical</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident atque non illum, et facilis voluptates porro asperiores amet debitis accusamus totam similique iusto ipsa sequi? Hic enim amet eos!</p>
+                    <a href="#"><img src="imagens/drive-download-20230318T204225Z-001/arrow-right.svg" alt="ir para página do curso"></a>
+                </article>
+                <article class="card">
+                    <img src="imagens/drive-download-20230318T204225Z-001/sax.png" alt="Saxofone">
+                    <strong>Sax alto</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident atque non illum, et facilis voluptates porro asperiores amet debitis accusamus totam similique iusto ipsa sequi? Hic enim amet eos!</p>
+                    <a href="#"><img src="imagens/drive-download-20230318T204225Z-001/arrow-right.svg" alt="ir para página do curso"></a>
+                </article>
+                <article class="card">
+                    <img src="imagens/drive-download-20230318T204225Z-001/drums.png" alt="Bateria">
+                    <strong>Bateria</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident atque non illum, et facilis voluptates porro asperiores amet debitis accusamus totam similique iusto ipsa sequi? Hic enim amet eos!</p>
+                    <a href="#"><img src="imagens/drive-download-20230318T204225Z-001/arrow-right.svg" alt="ir para página do curso"></a>
+                </article>
+            </div>
 
-    </div>
+            <h2 class="text-center">E <span class="text-primary">vários</span> outros</h2>
+            <a href="#" class="button mt-2 mx-auto">Conhecer cursos</a>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="imagens/drive-download-20230318T204225Z-001/logo.svg" alt="Tom's Jazz School" class="mt-1">
+            <p class="mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit doloremque ea quibusdam minima fuga sint illum nisi, repellendus architecto praesentium quidem veniam a ducimus eos aperiam perspiciatis velit, magnam asperiores.</p>
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Cursos</a>
+            <a href="#">Eventos</a>
+            <a href="#">Contato</a>
+        </nav>
+        <form action="#" class="newsletter-form">
+            <label for="email" class="mt-1 mb-1">Receba materiais gratuitos no seu email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" class="mb-1">
+            <button class="button mb-2">Quero receber</button>
+        </form>
+
+    </footer>
 </body>
 </html>
