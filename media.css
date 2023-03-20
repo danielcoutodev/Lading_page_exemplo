@@ -23,4 +23,45 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    header img, 
+    header nav, 
+    header .button{
+        margin: 0;
+    }
+    
+}
+
+@media screen and (min-width: 72em) {
+
+    h1,h2{
+        font-size: 4em;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;    
+        max-width: 72em;
+    }
+   .container.row-reverse{
+    flex-direction: row-reverse;
+   }
+
+   .about{
+    flex: 2;
+   }
+
+   .about p{
+    font-size: 1.25em;
+    max-width: 16em;
+   }
+
+   footer nav{
+    flex: 1;
+   }
+
+   .newsletter-form{
+    flex: 3;
+   }
 }
